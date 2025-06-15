@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.2.4">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': '', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="True" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1200, 800]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="Audiometer_v2" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="WelcomeScreen">
+      <RoutineSettingsComponent name="WelcomeScreen" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="WelcomeScreen" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textWelc" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textWelc" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome to the experiment!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="textExplain" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textExplain" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="This is an audiometry test to measure your absolute threshold of hearing. &amp;#10;&amp;#10;You will be presented with sounds of different frequencies, following which you have to indicate if you hear them (by pressing the 'Yes' button) or not (by pressing the 'No' button).&amp;#10;&amp;#10;You will first hear sounds from your left ear, followed by sounds from your right ear.&amp;#10;&amp;#10;Press SPACEBAR to start." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respStart" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respStart" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial_left">
+      <RoutineSettingsComponent name="trial_left" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial_left" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="codetrials_left" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Global variables&amp;#10;step = 5&amp;#10;sound_file_path = &quot;Audio_Final/&quot;&amp;#10;dummy_file_path = f&quot;{sound_file_path}dummy.wav&quot;&amp;#10;&amp;#10;# Frequencies used in the audiometer&amp;#10;frequencies = [125, 250, 500, 1000, 2000, 3000, 4000, 6000, 8000]  # List of frequencies&amp;#10;&amp;#10;# Fixed lower limit for both ears&amp;#10;lower_lim_left = -20.0  &amp;#10;&amp;#10;# Updated dictionary mapping frequencies to their corresponding upper limits&amp;#10;upper_limits = {&amp;#10;    125: 40.0,&amp;#10;    250: 50.0,&amp;#10;    500: 60.0,&amp;#10;    1000: 70.0,&amp;#10;    2000: 70.0,&amp;#10;    3000: 70.0,&amp;#10;    4000: 60.0,&amp;#10;    6000: 50.0,&amp;#10;    8000: 50.0&amp;#10;}&amp;#10;&amp;#10;# Initialize variables for the left ear&amp;#10;current_dB_left = 30.0&amp;#10;frequency_index_left = 0&amp;#10;frequency_left = frequencies[frequency_index_left]&amp;#10;upper_lim_left = upper_limits[frequency_left]&amp;#10;reversals_left = 0&amp;#10;reading_num_left = 0&amp;#10;trial_num_left = 0&amp;#10;user_resp_left = []&amp;#10;readings_left = []&amp;#10;dummy_play_count_left = 0&amp;#10;limit_played_left = False&amp;#10;waiting_for_y_left = False&amp;#10;dummy_trial_repeats = 0&amp;#10;frequency_updated = False&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="step = 5;&amp;#10;sound_file_path = &quot;Audio_Final/&quot;;&amp;#10;dummy_file_path = `${sound_file_path}dummy.wav`;&amp;#10;frequencies = [125, 250, 500, 1000, 2000, 3000, 4000, 6000, 8000];&amp;#10;lower_lim_left = (- 20.0);&amp;#10;upper_limits = {[125]: 40.0, [250]: 50.0, [500]: 60.0, [1000]: 70.0, [2000]: 70.0, [3000]: 70.0, [4000]: 60.0, [6000]: 50.0, [8000]: 50.0};&amp;#10;current_dB_left = 30.0;&amp;#10;frequency_index_left = 0;&amp;#10;frequency_left = frequencies[frequency_index_left];&amp;#10;upper_lim_left = upper_limits[frequency_left];&amp;#10;reversals_left = 0;&amp;#10;reading_num_left = 0;&amp;#10;trial_num_left = 0;&amp;#10;user_resp_left = [];&amp;#10;readings_left = [];&amp;#10;dummy_play_count_left = 0;&amp;#10;limit_played_left = false;&amp;#10;waiting_for_y_left = false;&amp;#10;dummy_trial_repeats = 0;&amp;#10;frequency_updated = false;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="current_filename_left = `${sound_file_path}${frequency_left}_${util.pad(Number.parseFloat(current_dB_left).toFixed(1), 1)}_left.wav`;&amp;#10;sound_left.setSound(current_filename_left, {&quot;secs&quot;: 30.0, &quot;hamming&quot;: false});&amp;#10;console.log(`Filename: ${current_filename_left}`);&amp;#10;console.log(`Current dB (left): ${current_dB_left}`);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Set the initial sound file for the left ear&amp;#10;current_filename_left = f&quot;{sound_file_path}{frequency_left}_{current_dB_left:.1f}_left.wav&quot;&amp;#10;sound_left.setSound(current_filename_left, secs=30.0, hamming=False)&amp;#10;&amp;#10;# Print the current filename and dB level for debugging&amp;#10;print(f&quot;Filename: {current_filename_left}&quot;)&amp;#10;print(f&quot;Current dB (left): {current_dB_left}&quot;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;previous_dB_left = current_dB_left;&amp;#10;clicked_button = null;&amp;#10;while ((clicked_button === null)) {&amp;#10;    if (mouse_left.isPressedIn(yes_button_left)) {&amp;#10;        clicked_button = &quot;y&quot;;&amp;#10;    } else {&amp;#10;        if (mouse_left.isPressedIn(no_button_left)) {&amp;#10;            clicked_button = &quot;n&quot;;&amp;#10;        }&amp;#10;    }&amp;#10;    core.wait(0.01);&amp;#10;}&amp;#10;if ((clicked_button === &quot;y&quot;)) {&amp;#10;    console.log(&quot;Yes button clicked&quot;);&amp;#10;    user_resp_left.push(&quot;y&quot;);&amp;#10;    current_dB_left -= (step * 2);&amp;#10;} else {&amp;#10;    if ((clicked_button === &quot;n&quot;)) {&amp;#10;        console.log(&quot;No button clicked&quot;);&amp;#10;        user_resp_left.push(&quot;n&quot;);&amp;#10;        current_dB_left += step;&amp;#10;    }&amp;#10;}&amp;#10;if (((lower_lim_left &lt;= current_dB_left) &amp;&amp; (current_dB_left &lt;= upper_lim_left))) {&amp;#10;    current_filename_left = `${sound_file_path}${frequency_left}_${util.pad(Number.parseFloat(current_dB_left).toFixed(1), 1)}_left.wav`;&amp;#10;    dummy_play_count_left = 0;&amp;#10;    limit_played_left = false;&amp;#10;} else {&amp;#10;    if ((current_dB_left &gt; upper_lim_left)) {&amp;#10;        console.log(&quot;Current dB exceeds upper limit&quot;);&amp;#10;        current_dB_left = upper_lim_left;&amp;#10;        if ((! limit_played_left)) {&amp;#10;            current_filename_left = `${sound_file_path}${frequency_left}_${util.pad(Number.parseFloat(upper_lim_left).toFixed(1), 1)}_left.wav`;&amp;#10;            limit_played_left = true;&amp;#10;            console.log(&quot;Playing upper limit sound&quot;);&amp;#10;        } else {&amp;#10;            if (_pj.in_es6(&quot;n&quot;, user_resp_left.slice((- 1))[0])) {&amp;#10;                frequency_index_left += 1;&amp;#10;                if ((frequency_index_left &lt; frequencies.length)) {&amp;#10;                    frequency_left = frequencies[frequency_index_left];&amp;#10;                    current_dB_left = 30.0;&amp;#10;                    upper_lim_left = upper_limits[frequency_left];&amp;#10;                    reversals_left = 0;&amp;#10;                    reading_num_left = 0;&amp;#10;                    trial_num_left = 0;&amp;#10;                    user_resp_left = [];&amp;#10;                    readings_left = [];&amp;#10;                    frequency_updated = false;&amp;#10;                    next_freq_message_left = `Next frequency: ${frequency_left} Hz`;&amp;#10;                    console.log(`Moving to next frequency: ${frequency_left} Hz`);&amp;#10;                } else {&amp;#10;                    trials_left.finished = true;&amp;#10;                    console.log(&quot;All frequencies tested, ending Left Ear&quot;);&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    } else {&amp;#10;        if ((current_dB_left &lt; lower_lim_left)) {&amp;#10;            console.log(&quot;Current dB below lower limit&quot;);&amp;#10;            current_dB_left = lower_lim_left;&amp;#10;            if ((! limit_played_left)) {&amp;#10;                current_filename_left = `${sound_file_path}${frequency_left}_${util.pad(Number.parseFloat(lower_lim_left).toFixed(1), 1)}_left.wav`;&amp;#10;                limit_played_left = true;&amp;#10;                console.log(&quot;Playing lower limit sound&quot;);&amp;#10;                sound_left.setSound(current_filename_left, {&quot;secs&quot;: 30.0, &quot;hamming&quot;: false});&amp;#10;                sound_left.play();&amp;#10;            } else {&amp;#10;                psychoJS.eventManager.clearEvents({&quot;eventType&quot;: &quot;mouse&quot;});&amp;#10;                while ((! any(mouse_left.getPressed()))) {&amp;#10;                }&amp;#10;                if (mouse_left.isPressedIn(yes_button_left)) {&amp;#10;                    console.log(&quot;Yes button clicked during dummy trial&quot;);&amp;#10;                    dummy_play_count_left = 0;&amp;#10;                    y_count = 0;&amp;#10;                    n_count = 0;&amp;#10;                    while ((dummy_play_count_left &lt; 3)) {&amp;#10;                        psychoJS.eventManager.clearEvents({&quot;eventType&quot;: &quot;mouse&quot;});&amp;#10;                        console.log(`Playing dummy.wav ${(dummy_play_count_left + 1)} time(s)`);&amp;#10;                        psychoJS.window.color = [0, 0, 0];&amp;#10;                        psychoJS.window.flip();&amp;#10;                        core.wait(0.5);&amp;#10;                        psychoJS.window.color = [0, 0, 0];&amp;#10;                        yes_button_left.draw();&amp;#10;                        no_button_left.draw();&amp;#10;                        psychoJS.window.flip();&amp;#10;                        sound_left.setSound(dummy_file_path, {&quot;secs&quot;: 30.0, &quot;hamming&quot;: false});&amp;#10;                        sound_left.play();&amp;#10;                        click_detected = false;&amp;#10;                        while ((! click_detected)) {&amp;#10;                            if (any(mouse_left.getPressed())) {&amp;#10;                                if (mouse_left.isPressedIn(yes_button_left)) {&amp;#10;                                    console.log(&quot;Yes button clicked during dummy trial playback&quot;);&amp;#10;                                    y_count += 1;&amp;#10;                                    psychoJS.experiment.addData(`dummy_response_${(dummy_play_count_left + 1)}_left`, &quot;y&quot;);&amp;#10;                                    click_detected = true;&amp;#10;                                } else {&amp;#10;                                    if (mouse_left.isPressedIn(no_button_left)) {&amp;#10;                                        console.log(&quot;No button clicked during dummy trial playback&quot;);&amp;#10;                                        n_count += 1;&amp;#10;                                        psychoJS.experiment.addData(`dummy_response_${(dummy_play_count_left + 1)}_left`, &quot;n&quot;);&amp;#10;                                        click_detected = true;&amp;#10;                                    }&amp;#10;                                }&amp;#10;                            }&amp;#10;                            core.wait(0.01);&amp;#10;                        }&amp;#10;                        dummy_play_count_left += 1;&amp;#10;                    }&amp;#10;                    if ((y_count &gt;= 2)) {&amp;#10;                        frequency_index_left += 1;&amp;#10;                        if ((frequency_index_left &lt; frequencies.length)) {&amp;#10;                            frequency_left = frequencies[frequency_index_left];&amp;#10;                            current_dB_left = 30.0;&amp;#10;                            upper_lim_left = upper_limits[frequency_left];&amp;#10;                            reversals_left = 0;&amp;#10;                            reading_num_left = 0;&amp;#10;                            trial_num_left = 0;&amp;#10;                            user_resp_left = [];&amp;#10;                            readings_left = [];&amp;#10;                            frequency_updated = false;&amp;#10;                            next_freq_message_left = `Next frequency: ${frequency_left} Hz`;&amp;#10;                            console.log(`Moving to next frequency: ${frequency_left} Hz`);&amp;#10;                        } else {&amp;#10;                            trials_left.finished = true;&amp;#10;                            console.log(&quot;All frequencies tested, ending experiment&quot;);&amp;#10;                        }&amp;#10;                    } else {&amp;#10;                        if ((n_count &gt;= 2)) {&amp;#10;                            dummy_trial_repeats += 1;&amp;#10;                            psychoJS.experiment.addData(&quot;Level_left&quot;, (- 20));&amp;#10;                            readings_left.push((- 20));&amp;#10;                            psychoJS.experiment.addData(&quot;Readings_left&quot;, (- 20.0));&amp;#10;                            reading_num_left += 1;&amp;#10;                            console.log(&quot;Recorded -20.0 as a valid threshold&quot;);&amp;#10;                            if ((dummy_trial_repeats &lt; 3)) {&amp;#10;                                current_dB_left = lower_lim_left;&amp;#10;                                console.log(`Restarting from lower limit: ${current_dB_left}`);&amp;#10;                            } else {&amp;#10;                                if (((util.count(readings_left, (- 20)) &gt;= 3) &amp;&amp; (dummy_trial_repeats &gt;= 3))) {&amp;#10;                                    if ((! frequency_updated)) {&amp;#10;                                        if ((frequency_index_left &lt; (frequencies.length - 1))) {&amp;#10;                                            frequency_index_left += 1;&amp;#10;                                            frequency_left = frequencies[frequency_index_left];&amp;#10;                                            frequency_updated = true;&amp;#10;                                            current_dB_left = 30.0;&amp;#10;                                            upper_lim_left = upper_limits[frequency_left];&amp;#10;                                            reversals_left = 0;&amp;#10;                                            reading_num_left = 0;&amp;#10;                                            trial_num_left = 0;&amp;#10;                                            user_resp_left = [];&amp;#10;                                            readings_left = [];&amp;#10;                                            frequency_updated = false;&amp;#10;                                            next_freq_message_left = `Next frequency: ${frequency_left} Hz`;&amp;#10;                                            console.log(`Dummy trial triggered frequency change: ${frequency_left} Hz (Index: ${frequency_index_left})`);&amp;#10;                                        } else {&amp;#10;                                            trials_left.finished = true;&amp;#10;                                            console.log(&quot;All frequencies tested, ending Left Ear&quot;);&amp;#10;                                        }&amp;#10;                                    }&amp;#10;                                }&amp;#10;                            }&amp;#10;                        }&amp;#10;                    }&amp;#10;                } else {&amp;#10;                    if (mouse_left.isPressedIn(no_button_left)) {&amp;#10;                        console.log(&quot;No button clicked during dummy trial&quot;);&amp;#10;                        user_resp_left.push(&quot;n&quot;);&amp;#10;                        console.log(`User response left: ${user_resp_left}`);&amp;#10;                        current_dB_left += step;&amp;#10;                    }&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;console.log(`User response left: ${user_resp_left}`);&amp;#10;if ((user_resp_left.length &gt; 1)) {&amp;#10;    if ((user_resp_left.slice((- 1))[0] !== user_resp_left.slice((- 2))[0])) {&amp;#10;        reversals_left += 1;&amp;#10;        console.log(`Reversals left: ${reversals_left}`);&amp;#10;        if (((reversals_left % 2) === 0)) {&amp;#10;            if ((user_resp_left.slice((- 1))[0] === &quot;n&quot;)) {&amp;#10;                waiting_for_y_left = true;&amp;#10;                console.log(&quot;Waiting for next 'y' to record the reading&quot;);&amp;#10;            } else {&amp;#10;                if ((user_resp_left.slice((- 1))[0] === &quot;y&quot;)) {&amp;#10;                    latest_reading_left = previous_dB_left;&amp;#10;                    readings_left.push(latest_reading_left);&amp;#10;                    reading_num_left += 1;&amp;#10;                    console.log(`Recording reading (2nd reversal): ${latest_reading_left}`);&amp;#10;                    psychoJS.experiment.addData(&quot;Readings_left&quot;, latest_reading_left);&amp;#10;                    waiting_for_y_left = false;&amp;#10;                }&amp;#10;            }&amp;#10;        } else {&amp;#10;            if ((waiting_for_y_left &amp;&amp; (user_resp_left.slice((- 1))[0] === &quot;y&quot;))) {&amp;#10;                latest_reading_left = previous_dB_left;&amp;#10;                readings_left.push(latest_reading_left);&amp;#10;                reading_num_left += 1;&amp;#10;                console.log(`Recording reading (waiting for y): ${latest_reading_left}`);&amp;#10;                psychoJS.experiment.addData(&quot;Readings_left&quot;, latest_reading_left);&amp;#10;                waiting_for_y_left = false;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;if (((! frequency_updated) &amp;&amp; (readings_left.length &gt;= 3))) {&amp;#10;    most_common_reading = Math.max(set(readings_left));&amp;#10;    if (((util.count(readings_left, most_common_reading) &gt;= 3) || (readings_left.length &gt; 10))) {&amp;#10;        if ((frequency_index_left &lt; (frequencies.length - 1))) {&amp;#10;            frequency_index_left += 1;&amp;#10;            frequency_left = frequencies[frequency_index_left];&amp;#10;            current_dB_left = 30.0;&amp;#10;            upper_lim_left = upper_limits[frequency_left];&amp;#10;            reversals_left = 0;&amp;#10;            reading_num_left = 0;&amp;#10;            trial_num_left = 0;&amp;#10;            user_resp_left = [];&amp;#10;            readings_left = [];&amp;#10;            next_freq_message_left = `Next frequency: ${frequency_left} Hz`;&amp;#10;            console.log(`Normal trials triggered frequency change: ${frequency_left} Hz (Index: ${frequency_index_left})`);&amp;#10;        } else {&amp;#10;            trials_left.finished = true;&amp;#10;            console.log(&quot;All frequencies tested, ending Left Ear&quot;);&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;Level_left&quot;, current_dB_left);&amp;#10;trial_num_left += 1;&amp;#10;console.log(`Final filename: ${current_filename_left}`);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# Store the current_dB value before updating it&amp;#10;previous_dB_left = current_dB_left&amp;#10;&amp;#10;# Check for mouse clicks on &quot;Yes&quot; or &quot;No&quot; buttons&amp;#10;clicked_button = None&amp;#10;while clicked_button is None:&amp;#10;    if mouse_left.isPressedIn(yes_button_left):&amp;#10;        clicked_button = 'y'&amp;#10;    elif mouse_left.isPressedIn(no_button_left):&amp;#10;        clicked_button = 'n'&amp;#10;    core.wait(0.01)&amp;#10;&amp;#10;# Update current_dB based on the clicked button&amp;#10;if clicked_button == 'y':&amp;#10;    print(&quot;Yes button clicked&quot;)&amp;#10;    user_resp_left.append('y')&amp;#10;    current_dB_left -= step * 2&amp;#10;elif clicked_button == 'n':&amp;#10;    print(&quot;No button clicked&quot;)&amp;#10;    user_resp_left.append('n')&amp;#10;    current_dB_left += step&amp;#10;&amp;#10;# Ensure current_dB stays within the defined limits&amp;#10;if lower_lim_left &lt;= current_dB_left &lt;= upper_lim_left:&amp;#10;    current_filename_left = f&quot;{sound_file_path}{frequency_left}_{current_dB_left:.1f}_left.wav&quot;&amp;#10;    dummy_play_count_left = 0&amp;#10;    limit_played_left = False&amp;#10;&amp;#10;elif current_dB_left &gt; upper_lim_left:&amp;#10;    print(&quot;Current dB exceeds upper limit&quot;)&amp;#10;    current_dB_left = upper_lim_left&amp;#10;    if not limit_played_left:&amp;#10;        current_filename_left = f&quot;{sound_file_path}{frequency_left}_{upper_lim_left:.1f}_left.wav&quot;&amp;#10;        limit_played_left = True&amp;#10;        print(&quot;Playing upper limit sound&quot;)&amp;#10;    else:&amp;#10;        if 'n' in user_resp_left[-1]:&amp;#10;            frequency_index_left += 1&amp;#10;            if frequency_index_left &lt; len(frequencies):&amp;#10;                frequency_left = frequencies[frequency_index_left]&amp;#10;                current_dB_left = 30.0&amp;#10;                upper_lim_left = upper_limits[frequency_left]&amp;#10;                reversals_left = 0&amp;#10;                reading_num_left = 0&amp;#10;                trial_num_left = 0&amp;#10;                user_resp_left = []&amp;#10;                readings_left = []&amp;#10;                frequency_updated = False&amp;#10;                next_freq_message_left = f&quot;Next frequency: {frequency_left} Hz&quot;&amp;#10;                print(f&quot;Moving to next frequency: {frequency_left} Hz&quot;)&amp;#10;            else:&amp;#10;                trials_left.finished = True&amp;#10;                print(&quot;All frequencies tested, ending Left Ear&quot;)&amp;#10;&amp;#10;elif current_dB_left &lt; lower_lim_left:&amp;#10;    print(&quot;Current dB below lower limit&quot;)&amp;#10;    current_dB_left = lower_lim_left&amp;#10;    if not limit_played_left:&amp;#10;        current_filename_left = f&quot;{sound_file_path}{frequency_left}_{lower_lim_left:.1f}_left.wav&quot;&amp;#10;        limit_played_left = True&amp;#10;        print(&quot;Playing lower limit sound&quot;)&amp;#10;        sound_left.setSound(current_filename_left, secs=30.0, hamming=False)&amp;#10;        sound_left.play()&amp;#10;    else:&amp;#10;        event.clearEvents(eventType='mouse')&amp;#10;        while not any(mouse_left.getPressed()):&amp;#10;            pass&amp;#10;        if mouse_left.isPressedIn(yes_button_left):&amp;#10;            print(&quot;Yes button clicked during dummy trial&quot;)&amp;#10;            dummy_play_count_left = 0&amp;#10;            y_count = 0&amp;#10;            n_count = 0&amp;#10;            while dummy_play_count_left &lt; 3:&amp;#10;                event.clearEvents(eventType='mouse')&amp;#10;                print(f&quot;Playing dummy.wav {dummy_play_count_left + 1} time(s)&quot;)&amp;#10;                win.color = (0, 0, 0)&amp;#10;                win.flip()&amp;#10;                core.wait(0.5)&amp;#10;                win.color = (0, 0, 0)&amp;#10;                yes_button_left.draw()&amp;#10;                no_button_left.draw()&amp;#10;                win.flip()&amp;#10;                sound_left.setSound(dummy_file_path, secs=30.0, hamming=False)&amp;#10;                sound_left.play()&amp;#10;                click_detected = False&amp;#10;                while not click_detected:&amp;#10;                    if any(mouse_left.getPressed()):&amp;#10;                        if mouse_left.isPressedIn(yes_button_left):&amp;#10;                            print(&quot;Yes button clicked during dummy trial playback&quot;)&amp;#10;                            y_count += 1&amp;#10;                            thisExp.addData(f'dummy_response_{dummy_play_count_left + 1}_left', 'y')&amp;#10;                            click_detected = True&amp;#10;                        elif mouse_left.isPressedIn(no_button_left):&amp;#10;                            print(&quot;No button clicked during dummy trial playback&quot;)&amp;#10;                            n_count += 1&amp;#10;                            thisExp.addData(f'dummy_response_{dummy_play_count_left + 1}_left', 'n')&amp;#10;                            click_detected = True&amp;#10;                    core.wait(0.01)&amp;#10;                dummy_play_count_left += 1&amp;#10;&amp;#10;            if y_count &gt;= 2:&amp;#10;                frequency_index_left += 1&amp;#10;                if frequency_index_left &lt; len(frequencies):&amp;#10;                    frequency_left = frequencies[frequency_index_left]&amp;#10;                    current_dB_left = 30.0&amp;#10;                    upper_lim_left = upper_limits[frequency_left]&amp;#10;                    reversals_left = 0&amp;#10;                    reading_num_left = 0&amp;#10;                    trial_num_left = 0&amp;#10;                    user_resp_left = []&amp;#10;                    readings_left = []&amp;#10;                    frequency_updated = False&amp;#10;                    next_freq_message_left = f&quot;Next frequency: {frequency_left} Hz&quot;&amp;#10;                    print(f&quot;Moving to next frequency: {frequency_left} Hz&quot;)&amp;#10;                else:&amp;#10;                    trials_left.finished = True&amp;#10;                    print(&quot;All frequencies tested, ending experiment&quot;)&amp;#10;&amp;#10;            elif n_count &gt;= 2:&amp;#10;                dummy_trial_repeats += 1&amp;#10;                thisExp.addData('Level_left', -20)&amp;#10;                readings_left.append(-20)&amp;#10;                thisExp.addData('Readings_left', -20.0)&amp;#10;                reading_num_left += 1&amp;#10;                print(&quot;Recorded -20.0 as a valid threshold&quot;)&amp;#10;&amp;#10;                if dummy_trial_repeats &lt; 3:&amp;#10;                    current_dB_left = lower_lim_left&amp;#10;                    print(f&quot;Restarting from lower limit: {current_dB_left}&quot;)&amp;#10;                else:&amp;#10;                    if readings_left.count(-20) &gt;= 3 and dummy_trial_repeats &gt;= 3:&amp;#10;                        if not frequency_updated:&amp;#10;                            if frequency_index_left &lt; len(frequencies) - 1:&amp;#10;                                frequency_index_left += 1&amp;#10;                                frequency_left = frequencies[frequency_index_left]&amp;#10;                                frequency_updated = True&amp;#10;                                current_dB_left = 30.0&amp;#10;                                upper_lim_left = upper_limits[frequency_left]&amp;#10;                                reversals_left = 0&amp;#10;                                reading_num_left = 0&amp;#10;                                trial_num_left = 0&amp;#10;                                user_resp_left = []&amp;#10;                                readings_left = []&amp;#10;                                frequency_updated = False&amp;#10;                                next_freq_message_left = f&quot;Next frequency: {frequency_left} Hz&quot;&amp;#10;                                print(f&quot;Dummy trial triggered frequency change: {frequency_left} Hz (Index: {frequency_index_left})&quot;)&amp;#10;                            else:&amp;#10;                                trials_left.finished = True&amp;#10;                                print(&quot;All frequencies tested, ending Left Ear&quot;)&amp;#10;        elif mouse_left.isPressedIn(no_button_left):&amp;#10;            print(&quot;No button clicked during dummy trial&quot;)&amp;#10;            user_resp_left.append('n')&amp;#10;            print(f&quot;User response left: {user_resp_left}&quot;)&amp;#10;            current_dB_left += step&amp;#10;&amp;#10;# Track user responses and reversals&amp;#10;print(f&quot;User response left: {user_resp_left}&quot;)&amp;#10;if len(user_resp_left) &gt; 1:&amp;#10;    if user_resp_left[-1] != user_resp_left[-2]:&amp;#10;        reversals_left += 1&amp;#10;        print(f&quot;Reversals left: {reversals_left}&quot;)&amp;#10;        if reversals_left % 2 == 0:&amp;#10;            if user_resp_left[-1] == 'n':&amp;#10;                waiting_for_y_left = True&amp;#10;                print(&quot;Waiting for next 'y' to record the reading&quot;)&amp;#10;            elif user_resp_left[-1] == 'y':&amp;#10;                latest_reading_left = previous_dB_left&amp;#10;                readings_left.append(latest_reading_left)&amp;#10;                reading_num_left += 1&amp;#10;                print(f&quot;Recording reading (2nd reversal): {latest_reading_left}&quot;)&amp;#10;                thisExp.addData('Readings_left', latest_reading_left)&amp;#10;                waiting_for_y_left = False&amp;#10;        elif waiting_for_y_left and user_resp_left[-1] == 'y':&amp;#10;            latest_reading_left = previous_dB_left&amp;#10;            readings_left.append(latest_reading_left)&amp;#10;            reading_num_left += 1&amp;#10;            print(f&quot;Recording reading (waiting for y): {latest_reading_left}&quot;)&amp;#10;            thisExp.addData('Readings_left', latest_reading_left)&amp;#10;            waiting_for_y_left = False&amp;#10;&amp;#10;# Check for concordant readings&amp;#10;if not frequency_updated and len(readings_left) &gt;= 3:&amp;#10;    most_common_reading = max(set(readings_left), key=readings_left.count)&amp;#10;    if readings_left.count(most_common_reading) &gt;= 3 or len(readings_left) &gt; 10:&amp;#10;        if frequency_index_left &lt; len(frequencies) - 1:&amp;#10;            frequency_index_left += 1&amp;#10;            frequency_left = frequencies[frequency_index_left]&amp;#10;            current_dB_left = 30.0&amp;#10;            upper_lim_left = upper_limits[frequency_left]&amp;#10;            reversals_left = 0&amp;#10;            reading_num_left = 0&amp;#10;            trial_num_left = 0&amp;#10;            user_resp_left = []&amp;#10;            readings_left = []&amp;#10;            next_freq_message_left = f&quot;Next frequency: {frequency_left} Hz&quot;&amp;#10;            print(f&quot;Normal trials triggered frequency change: {frequency_left} Hz (Index: {frequency_index_left})&quot;)&amp;#10;        else:&amp;#10;            trials_left.finished = True&amp;#10;            print(&quot;All frequencies tested, ending Left Ear&quot;)&amp;#10;&amp;#10;# Add data to the experiment&amp;#10;thisExp.addData('Level_left', current_dB_left)&amp;#10;trial_num_left += 1&amp;#10;print(f&quot;Final filename: {current_filename_left}&quot;)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codetrials_left" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="next_freq_text_left" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="next_freq_text_left" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="yes_button_left" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Mouse/Yes.png" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="yes_button_left" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-8, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(5, 5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="cm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="no_button_left" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Mouse/No.png" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="no_button_left" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(8,0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(5, 5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="cm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <SoundComponent name="sound_left" plugin="None">
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="hamming"/>
+        <Param val="sound_left" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="$current_filename_left" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="-1" valType="code" updates="None" name="speakerIndex"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="30.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="1" valType="num" updates="constant" name="volume"/>
+      </SoundComponent>
+      <MouseComponent name="mouse_left" plugin="None">
+        <Param val="(yes_button_left,no_button_left)" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_left" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="every frame" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="" valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="routine" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="blank500">
+      <RoutineSettingsComponent name="blank500" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="blank500" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textBlank" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textBlank" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Int_Message">
+      <RoutineSettingsComponent name="Int_Message" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Int_Message" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textInterval" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textInterval" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="All trials for the left ear have finished. We will now proceed to the trials for the right ear." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="trial_right">
+      <RoutineSettingsComponent name="trial_right" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial_right" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="codetrials_right" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Global variables&amp;#10;step = 5&amp;#10;sound_file_path = &quot;Audio_Final/&quot;&amp;#10;dummy_file_path = f&quot;{sound_file_path}dummy.wav&quot;&amp;#10;&amp;#10;# Frequencies used in the audiometer&amp;#10;frequencies = [125, 250, 500, 1000, 2000, 3000, 4000, 6000, 8000]  # List of frequencies&amp;#10;&amp;#10;# Fixed lower limit for both ears&amp;#10;lower_lim_right = -20.0  &amp;#10;&amp;#10;# Updated dictionary mapping frequencies to their corresponding upper limits&amp;#10;upper_limits = {&amp;#10;    125: 40.0,&amp;#10;    250: 50.0,&amp;#10;    500: 60.0,&amp;#10;    1000: 70.0,&amp;#10;    2000: 70.0,&amp;#10;    3000: 70.0,&amp;#10;    4000: 60.0,&amp;#10;    6000: 50.0,&amp;#10;    8000: 50.0&amp;#10;}&amp;#10;&amp;#10;### === RIGHT EAR VARIABLES === ###&amp;#10;trial_num_right = 0  # Counter to keep track of trials&amp;#10;reading_num_right = 0  # Counter to keep track of reading number&amp;#10;user_resp_right = []  # List to keep track of key responses&amp;#10;reversals_right = 0  # Counter variable to keep track of reversals&amp;#10;readings_right = []  # List to keep track of all readings&amp;#10;frequency_index_right = 0  # Index to keep track of the current frequency&amp;#10;frequency_right = frequencies[frequency_index_right]  # Current frequency&amp;#10;upper_lim_right = upper_limits[frequency_right]  # Set dynamic upper limit&amp;#10;&amp;#10;current_dB_right = 30.0  # Initial dB level for the first trial&amp;#10;current_filename_right = f&quot;{sound_file_path}{frequency_right}_{current_dB_right:.1f}_right.wav&quot;  # Initial filename&amp;#10;&amp;#10;next_freq_message_right = &quot;&quot;  # Message for next frequency&amp;#10;latest_reading_right = None  # Store latest dB reading&amp;#10;waiting_for_y_right = False  # Flag for response tracking&amp;#10;dummy_play_count_right = 0  # Counter for dummy.wav plays&amp;#10;limit_played_right = False  # Flag to check if limit sound was played&amp;#10;dummy_responses_right = []  # List to keep track of dummy.wav responses&amp;#10;dummy_trial_repeats = 0 #Counter for the amount of times a set of 3 dummy trials has been run" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="step = 5;&amp;#10;sound_file_path = &quot;Audio_Final/&quot;;&amp;#10;dummy_file_path = `${sound_file_path}dummy.wav`;&amp;#10;frequencies = [125, 250, 500, 1000, 2000, 3000, 4000, 6000, 8000];&amp;#10;lower_lim_right = (- 20.0);&amp;#10;upper_limits = {[125]: 40.0, [250]: 50.0, [500]: 60.0, [1000]: 70.0, [2000]: 70.0, [3000]: 70.0, [4000]: 60.0, [6000]: 50.0, [8000]: 50.0};&amp;#10;trial_num_right = 0;&amp;#10;reading_num_right = 0;&amp;#10;user_resp_right = [];&amp;#10;reversals_right = 0;&amp;#10;readings_right = [];&amp;#10;frequency_index_right = 0;&amp;#10;frequency_right = frequencies[frequency_index_right];&amp;#10;upper_lim_right = upper_limits[frequency_right];&amp;#10;current_dB_right = 30.0;&amp;#10;current_filename_right = `${sound_file_path}${frequency_right}_${util.pad(Number.parseFloat(current_dB_right).toFixed(1), 1)}_right.wav`;&amp;#10;next_freq_message_right = &quot;&quot;;&amp;#10;latest_reading_right = null;&amp;#10;waiting_for_y_right = false;&amp;#10;dummy_play_count_right = 0;&amp;#10;limit_played_right = false;&amp;#10;dummy_responses_right = [];&amp;#10;dummy_trial_repeats = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="current_filename_right = `${sound_file_path}${frequency_right}_${util.pad(Number.parseFloat(current_dB_right).toFixed(1), 1)}_right.wav`;&amp;#10;console.log(`Filename: ${current_filename_right}`);&amp;#10;console.log(`Current dB (right): ${current_dB_right}`);&amp;#10;sound_right.setSound(current_filename_right, {&quot;secs&quot;: 30.0, &quot;hamming&quot;: false});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Update the filename based on the current frequency and dB level&amp;#10;current_filename_right = f&quot;{sound_file_path}{frequency_right}_{current_dB_right:.1f}_right.wav&quot;&amp;#10;&amp;#10;# Check if the current_dB has crossed the limits&amp;#10;#if current_dB_right &gt; upper_lim_right or current_dB_right &lt; lower_lim_right:&amp;#10;#    print(&quot;Error! You have crossed the limit of this audiometer.&quot;)&amp;#10;#    crossed_limit_right = True  # Set the flag if current_dB crosses the limit&amp;#10;#else:&amp;#10;#    crossed_limit_right = False&amp;#10;&amp;#10;# Print the current filename and dB level for debugging&amp;#10;print(f&quot;Filename: {current_filename_right}&quot;)&amp;#10;print(f&quot;Current dB (right): {current_dB_right}&quot;)&amp;#10;&amp;#10;# Set the sound file explicitly&amp;#10;sound_right.setSound(current_filename_right, secs=30.0, hamming=False)&amp;#10;# Initialize play_limit_sound and crossed_limit&amp;#10;#play_limit_sound = False&amp;#10;#crossed_limit = False&amp;#10;#limit_reached = False  # New flag to indicate if the limit has been reached&amp;#10;#limit_type = None  # New variable to indicate which limit was reached ('upper' or 'lower')" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;previous_dB_right = current_dB_right;&amp;#10;clicked_button = null;&amp;#10;while ((clicked_button === null)) {&amp;#10;    if (mouse_right.isPressedIn(yes_button_right)) {&amp;#10;        clicked_button = &quot;y&quot;;&amp;#10;    } else {&amp;#10;        if (mouse_right.isPressedIn(no_button_right)) {&amp;#10;            clicked_button = &quot;n&quot;;&amp;#10;        }&amp;#10;    }&amp;#10;    core.wait(0.01);&amp;#10;}&amp;#10;if ((clicked_button === &quot;y&quot;)) {&amp;#10;    console.log(&quot;Yes button clicked&quot;);&amp;#10;    user_resp_right.push(&quot;y&quot;);&amp;#10;    current_dB_right -= (step * 2);&amp;#10;} else {&amp;#10;    if ((clicked_button === &quot;n&quot;)) {&amp;#10;        console.log(&quot;No button clicked&quot;);&amp;#10;        user_resp_right.push(&quot;n&quot;);&amp;#10;        current_dB_right += step;&amp;#10;    }&amp;#10;}&amp;#10;if (((lower_lim_right &lt;= current_dB_right) &amp;&amp; (current_dB_right &lt;= upper_lim_right))) {&amp;#10;    current_filename_right = `${sound_file_path}${frequency_right}_${util.pad(Number.parseFloat(current_dB_right).toFixed(1), 1)}_right.wav`;&amp;#10;    dummy_play_count_right = 0;&amp;#10;    limit_played_right = false;&amp;#10;} else {&amp;#10;    if ((current_dB_right &gt; upper_lim_right)) {&amp;#10;        console.log(&quot;Current dB exceeds upper limit&quot;);&amp;#10;        current_dB_right = upper_lim_right;&amp;#10;        if ((! limit_played_right)) {&amp;#10;            current_filename_right = `${sound_file_path}${frequency_right}_${util.pad(Number.parseFloat(upper_lim_right).toFixed(1), 1)}_right.wav`;&amp;#10;            limit_played_right = true;&amp;#10;            console.log(&quot;Playing upper limit sound&quot;);&amp;#10;        } else {&amp;#10;            if (_pj.in_es6(&quot;n&quot;, user_resp_right.slice((- 1))[0])) {&amp;#10;                frequency_index_right += 1;&amp;#10;                if ((frequency_index_right &lt; frequencies.length)) {&amp;#10;                    frequency_right = frequencies[frequency_index_right];&amp;#10;                    current_dB_right = 30.0;&amp;#10;                    upper_lim_right = upper_limits[frequency_right];&amp;#10;                    reversals_right = 0;&amp;#10;                    reading_num_right = 0;&amp;#10;                    trial_num_right = 0;&amp;#10;                    user_resp_right = [];&amp;#10;                    readings_right = [];&amp;#10;                    frequency_updated = false;&amp;#10;                    next_freq_message_right = `Next frequency: ${frequency_right} Hz`;&amp;#10;                    console.log(`Moving to next frequency: ${frequency_right} Hz`);&amp;#10;                } else {&amp;#10;                    trials_right.finished = true;&amp;#10;                    console.log(&quot;All frequencies tested, ending Right Ear&quot;);&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    } else {&amp;#10;        if ((current_dB_right &lt; lower_lim_right)) {&amp;#10;            console.log(&quot;Current dB below lower limit&quot;);&amp;#10;            current_dB_right = lower_lim_right;&amp;#10;            if ((! limit_played_right)) {&amp;#10;                current_filename_right = `${sound_file_path}${frequency_right}_${util.pad(Number.parseFloat(lower_lim_right).toFixed(1), 1)}_right.wav`;&amp;#10;                limit_played_right = true;&amp;#10;                console.log(&quot;Playing lower limit sound&quot;);&amp;#10;                sound_right.setSound(current_filename_right, {&quot;secs&quot;: 30.0, &quot;hamming&quot;: false});&amp;#10;                sound_right.play();&amp;#10;            } else {&amp;#10;                psychoJS.eventManager.clearEvents({&quot;eventType&quot;: &quot;mouse&quot;});&amp;#10;                while ((! any(mouse_right.getPressed()))) {&amp;#10;                }&amp;#10;                if (mouse_right.isPressedIn(yes_button_right)) {&amp;#10;                    console.log(&quot;Yes button clicked during dummy trial&quot;);&amp;#10;                    dummy_play_count_right = 0;&amp;#10;                    y_count = 0;&amp;#10;                    n_count = 0;&amp;#10;                    while ((dummy_play_count_right &lt; 3)) {&amp;#10;                        psychoJS.eventManager.clearEvents({&quot;eventType&quot;: &quot;mouse&quot;});&amp;#10;                        console.log(`Playing dummy.wav ${(dummy_play_count_right + 1)} time(s)`);&amp;#10;                        psychoJS.window.color = [0, 0, 0];&amp;#10;                        psychoJS.window.flip();&amp;#10;                        core.wait(0.5);&amp;#10;                        psychoJS.window.color = [0, 0, 0];&amp;#10;                        yes_button_right.draw();&amp;#10;                        no_button_right.draw();&amp;#10;                        psychoJS.window.flip();&amp;#10;                        sound_right.setSound(dummy_file_path, {&quot;secs&quot;: 30.0, &quot;hamming&quot;: false});&amp;#10;                        sound_right.play();&amp;#10;                        click_detected = false;&amp;#10;                        while ((! click_detected)) {&amp;#10;                            if (any(mouse_right.getPressed())) {&amp;#10;                                if (mouse_right.isPressedIn(yes_button_right)) {&amp;#10;                                    console.log(&quot;Yes button clicked during dummy trial playback&quot;);&amp;#10;                                    y_count += 1;&amp;#10;                                    psychoJS.experiment.addData(`dummy_response_${(dummy_play_count_right + 1)}_right`, &quot;y&quot;);&amp;#10;                                    click_detected = true;&amp;#10;                                } else {&amp;#10;                                    if (mouse_right.isPressedIn(no_button_right)) {&amp;#10;                                        console.log(&quot;No button clicked during dummy trial playback&quot;);&amp;#10;                                        n_count += 1;&amp;#10;                                        psychoJS.experiment.addData(`dummy_response_${(dummy_play_count_right + 1)}_right`, &quot;n&quot;);&amp;#10;                                        click_detected = true;&amp;#10;                                    }&amp;#10;                                }&amp;#10;                            }&amp;#10;                            core.wait(0.01);&amp;#10;                        }&amp;#10;                        dummy_play_count_right += 1;&amp;#10;                    }&amp;#10;                    if ((y_count &gt;= 2)) {&amp;#10;                        frequency_index_right += 1;&amp;#10;                        if ((frequency_index_right &lt; frequencies.length)) {&amp;#10;                            frequency_right = frequencies[frequency_index_right];&amp;#10;                            current_dB_right = 30.0;&amp;#10;                            upper_lim_right = upper_limits[frequency_right];&amp;#10;                            reversals_right = 0;&amp;#10;                            reading_num_right = 0;&amp;#10;                            trial_num_right = 0;&amp;#10;                            user_resp_right = [];&amp;#10;                            readings_right = [];&amp;#10;                            frequency_updated = false;&amp;#10;                            next_freq_message_right = `Next frequency: ${frequency_right} Hz`;&amp;#10;                            console.log(`Moving to next frequency: ${frequency_right} Hz`);&amp;#10;                        } else {&amp;#10;                            trials_right.finished = true;&amp;#10;                            console.log(&quot;All frequencies tested, ending experiment&quot;);&amp;#10;                        }&amp;#10;                    } else {&amp;#10;                        if ((n_count &gt;= 2)) {&amp;#10;                            dummy_trial_repeats += 1;&amp;#10;                            psychoJS.experiment.addData(&quot;Level_right&quot;, (- 20));&amp;#10;                            readings_right.push((- 20));&amp;#10;                            psychoJS.experiment.addData(&quot;Readings_right&quot;, (- 20.0));&amp;#10;                            reading_num_right += 1;&amp;#10;                            console.log(&quot;Recorded -20.0 as a valid threshold&quot;);&amp;#10;                            if ((dummy_trial_repeats &lt; 3)) {&amp;#10;                                current_dB_right = lower_lim_right;&amp;#10;                                console.log(`Restarting from lower limit: ${current_dB_right}`);&amp;#10;                            } else {&amp;#10;                                if (((util.count(readings_right, (- 20)) &gt;= 3) &amp;&amp; (dummy_trial_repeats &gt;= 3))) {&amp;#10;                                    if ((! frequency_updated)) {&amp;#10;                                        if ((frequency_index_right &lt; (frequencies.length - 1))) {&amp;#10;                                            frequency_index_right += 1;&amp;#10;                                            frequency_right = frequencies[frequency_index_right];&amp;#10;                                            frequency_updated = true;&amp;#10;                                            current_dB_right = 30.0;&amp;#10;                                            upper_lim_right = upper_limits[frequency_right];&amp;#10;                                            reversals_right = 0;&amp;#10;                                            reading_num_right = 0;&amp;#10;                                            trial_num_right = 0;&amp;#10;                                            user_resp_right = [];&amp;#10;                                            readings_right = [];&amp;#10;                                            frequency_updated = false;&amp;#10;                                            next_freq_message_right = `Next frequency: ${frequency_right} Hz`;&amp;#10;                                            console.log(`Dummy trial triggered frequency change: ${frequency_right} Hz (Index: ${frequency_index_right})`);&amp;#10;                                        } else {&amp;#10;                                            trials_right.finished = true;&amp;#10;                                            console.log(&quot;All frequencies tested, ending Right Ear&quot;);&amp;#10;                                        }&amp;#10;                                    }&amp;#10;                                }&amp;#10;                            }&amp;#10;                        }&amp;#10;                    }&amp;#10;                } else {&amp;#10;                    if (mouse_right.isPressedIn(no_button_right)) {&amp;#10;                        console.log(&quot;No button clicked during dummy trial&quot;);&amp;#10;                        user_resp_right.push(&quot;n&quot;);&amp;#10;                        console.log(`User response right: ${user_resp_right}`);&amp;#10;                        current_dB_right += step;&amp;#10;                    }&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;console.log(`User response right: ${user_resp_right}`);&amp;#10;if ((user_resp_right.length &gt; 1)) {&amp;#10;    if ((user_resp_right.slice((- 1))[0] !== user_resp_right.slice((- 2))[0])) {&amp;#10;        reversals_right += 1;&amp;#10;        console.log(`Reversals right: ${reversals_right}`);&amp;#10;        if (((reversals_right % 2) === 0)) {&amp;#10;            if ((user_resp_right.slice((- 1))[0] === &quot;n&quot;)) {&amp;#10;                waiting_for_y_right = true;&amp;#10;                console.log(&quot;Waiting for next 'y' to record the reading&quot;);&amp;#10;            } else {&amp;#10;                if ((user_resp_right.slice((- 1))[0] === &quot;y&quot;)) {&amp;#10;                    latest_reading_right = previous_dB_right;&amp;#10;                    readings_right.push(latest_reading_right);&amp;#10;                    reading_num_right += 1;&amp;#10;                    console.log(`Recording reading (2nd reversal): ${latest_reading_right}`);&amp;#10;                    psychoJS.experiment.addData(&quot;Readings_right&quot;, latest_reading_right);&amp;#10;                    waiting_for_y_right = false;&amp;#10;                }&amp;#10;            }&amp;#10;        } else {&amp;#10;            if ((waiting_for_y_right &amp;&amp; (user_resp_right.slice((- 1))[0] === &quot;y&quot;))) {&amp;#10;                latest_reading_right = previous_dB_right;&amp;#10;                readings_right.push(latest_reading_right);&amp;#10;                reading_num_right += 1;&amp;#10;                console.log(`Recording reading (waiting for y): ${latest_reading_right}`);&amp;#10;                psychoJS.experiment.addData(&quot;Readings_right&quot;, latest_reading_right);&amp;#10;                waiting_for_y_right = false;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;if (((! frequency_updated) &amp;&amp; (readings_right.length &gt;= 3))) {&amp;#10;    most_common_reading = Math.max(set(readings_right));&amp;#10;    if (((util.count(readings_right, most_common_reading) &gt;= 3) || (readings_right.length &gt; 10))) {&amp;#10;        if ((frequency_index_right &lt; (frequencies.length - 1))) {&amp;#10;            frequency_index_right += 1;&amp;#10;            frequency_right = frequencies[frequency_index_right];&amp;#10;            current_dB_right = 30.0;&amp;#10;            upper_lim_right = upper_limits[frequency_right];&amp;#10;            reversals_right = 0;&amp;#10;            reading_num_right = 0;&amp;#10;            trial_num_right = 0;&amp;#10;            user_resp_right = [];&amp;#10;            readings_right = [];&amp;#10;            next_freq_message_right = `Next frequency: ${frequency_right} Hz`;&amp;#10;            console.log(`Normal trials triggered frequency change: ${frequency_right} Hz (Index: ${frequency_index_right})`);&amp;#10;        } else {&amp;#10;            trials_right.finished = true;&amp;#10;            console.log(&quot;All frequencies tested, ending Right Ear&quot;);&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;Level_right&quot;, current_dB_right);&amp;#10;trial_num_right += 1;&amp;#10;console.log(`Final filename: ${current_filename_right}`);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# Store the current_dB value before updating it&amp;#10;previous_dB_right = current_dB_right&amp;#10;&amp;#10;# Check for mouse clicks on &quot;Yes&quot; or &quot;No&quot; buttons&amp;#10;clicked_button = None&amp;#10;while clicked_button is None:&amp;#10;    if mouse_right.isPressedIn(yes_button_right):&amp;#10;        clicked_button = 'y'&amp;#10;    elif mouse_right.isPressedIn(no_button_right):&amp;#10;        clicked_button = 'n'&amp;#10;    core.wait(0.01)&amp;#10;&amp;#10;# Update current_dB based on the clicked button&amp;#10;if clicked_button == 'y':&amp;#10;    print(&quot;Yes button clicked&quot;)&amp;#10;    user_resp_right.append('y')&amp;#10;    current_dB_right -= step * 2&amp;#10;elif clicked_button == 'n':&amp;#10;    print(&quot;No button clicked&quot;)&amp;#10;    user_resp_right.append('n')&amp;#10;    current_dB_right += step&amp;#10;&amp;#10;# Ensure current_dB stays within the defined limits&amp;#10;if lower_lim_right &lt;= current_dB_right &lt;= upper_lim_right:&amp;#10;    current_filename_right = f&quot;{sound_file_path}{frequency_right}_{current_dB_right:.1f}_right.wav&quot;&amp;#10;    dummy_play_count_right = 0&amp;#10;    limit_played_right = False&amp;#10;&amp;#10;elif current_dB_right &gt; upper_lim_right:&amp;#10;    print(&quot;Current dB exceeds upper limit&quot;)&amp;#10;    current_dB_right = upper_lim_right&amp;#10;    if not limit_played_right:&amp;#10;        current_filename_right = f&quot;{sound_file_path}{frequency_right}_{upper_lim_right:.1f}_right.wav&quot;&amp;#10;        limit_played_right = True&amp;#10;        print(&quot;Playing upper limit sound&quot;)&amp;#10;    else:&amp;#10;        if 'n' in user_resp_right[-1]:&amp;#10;            frequency_index_right += 1&amp;#10;            if frequency_index_right &lt; len(frequencies):&amp;#10;                frequency_right = frequencies[frequency_index_right]&amp;#10;                current_dB_right = 30.0&amp;#10;                upper_lim_right = upper_limits[frequency_right]&amp;#10;                reversals_right = 0&amp;#10;                reading_num_right = 0&amp;#10;                trial_num_right = 0&amp;#10;                user_resp_right = []&amp;#10;                readings_right = []&amp;#10;                frequency_updated = False&amp;#10;                next_freq_message_right = f&quot;Next frequency: {frequency_right} Hz&quot;&amp;#10;                print(f&quot;Moving to next frequency: {frequency_right} Hz&quot;)&amp;#10;            else:&amp;#10;                trials_right.finished = True&amp;#10;                print(&quot;All frequencies tested, ending Right Ear&quot;)&amp;#10;&amp;#10;elif current_dB_right &lt; lower_lim_right:&amp;#10;    print(&quot;Current dB below lower limit&quot;)&amp;#10;    current_dB_right = lower_lim_right&amp;#10;    if not limit_played_right:&amp;#10;        current_filename_right = f&quot;{sound_file_path}{frequency_right}_{lower_lim_right:.1f}_right.wav&quot;&amp;#10;        limit_played_right = True&amp;#10;        print(&quot;Playing lower limit sound&quot;)&amp;#10;        sound_right.setSound(current_filename_right, secs=30.0, hamming=False)&amp;#10;        sound_right.play()&amp;#10;    else:&amp;#10;        event.clearEvents(eventType='mouse')&amp;#10;        while not any(mouse_right.getPressed()):&amp;#10;            pass&amp;#10;        if mouse_right.isPressedIn(yes_button_right):&amp;#10;            print(&quot;Yes button clicked during dummy trial&quot;)&amp;#10;            dummy_play_count_right = 0&amp;#10;            y_count = 0&amp;#10;            n_count = 0&amp;#10;            while dummy_play_count_right &lt; 3:&amp;#10;                event.clearEvents(eventType='mouse')&amp;#10;                print(f&quot;Playing dummy.wav {dummy_play_count_right + 1} time(s)&quot;)&amp;#10;                win.color = (0, 0, 0)&amp;#10;                win.flip()&amp;#10;                core.wait(0.5)&amp;#10;                win.color = (0, 0, 0)&amp;#10;                yes_button_right.draw()&amp;#10;                no_button_right.draw()&amp;#10;                win.flip()&amp;#10;                sound_right.setSound(dummy_file_path, secs=30.0, hamming=False)&amp;#10;                sound_right.play()&amp;#10;                click_detected = False&amp;#10;                while not click_detected:&amp;#10;                    if any(mouse_right.getPressed()):&amp;#10;                        if mouse_right.isPressedIn(yes_button_right):&amp;#10;                            print(&quot;Yes button clicked during dummy trial playback&quot;)&amp;#10;                            y_count += 1&amp;#10;                            thisExp.addData(f'dummy_response_{dummy_play_count_right + 1}_right', 'y')&amp;#10;                            click_detected = True&amp;#10;                        elif mouse_right.isPressedIn(no_button_right):&amp;#10;                            print(&quot;No button clicked during dummy trial playback&quot;)&amp;#10;                            n_count += 1&amp;#10;                            thisExp.addData(f'dummy_response_{dummy_play_count_right + 1}_right', 'n')&amp;#10;                            click_detected = True&amp;#10;                    core.wait(0.01)&amp;#10;                dummy_play_count_right += 1&amp;#10;&amp;#10;            if y_count &gt;= 2:&amp;#10;                frequency_index_right += 1&amp;#10;                if frequency_index_right &lt; len(frequencies):&amp;#10;                    frequency_right = frequencies[frequency_index_right]&amp;#10;                    current_dB_right = 30.0&amp;#10;                    upper_lim_right = upper_limits[frequency_right]&amp;#10;                    reversals_right = 0&amp;#10;                    reading_num_right = 0&amp;#10;                    trial_num_right = 0&amp;#10;                    user_resp_right = []&amp;#10;                    readings_right = []&amp;#10;                    frequency_updated = False&amp;#10;                    next_freq_message_right = f&quot;Next frequency: {frequency_right} Hz&quot;&amp;#10;                    print(f&quot;Moving to next frequency: {frequency_right} Hz&quot;)&amp;#10;                else:&amp;#10;                    trials_right.finished = True&amp;#10;                    print(&quot;All frequencies tested, ending experiment&quot;)&amp;#10;&amp;#10;            elif n_count &gt;= 2:&amp;#10;                dummy_trial_repeats += 1&amp;#10;                thisExp.addData('Level_right', -20)&amp;#10;                readings_right.append(-20)&amp;#10;                thisExp.addData('Readings_right', -20.0)&amp;#10;                reading_num_right += 1&amp;#10;                print(&quot;Recorded -20.0 as a valid threshold&quot;)&amp;#10;&amp;#10;                if dummy_trial_repeats &lt; 3:&amp;#10;                    current_dB_right = lower_lim_right&amp;#10;                    print(f&quot;Restarting from lower limit: {current_dB_right}&quot;)&amp;#10;                else:&amp;#10;                    if readings_right.count(-20) &gt;= 3 and dummy_trial_repeats &gt;= 3:&amp;#10;                        if not frequency_updated:&amp;#10;                            if frequency_index_right &lt; len(frequencies) - 1:&amp;#10;                                frequency_index_right += 1&amp;#10;                                frequency_right = frequencies[frequency_index_right]&amp;#10;                                frequency_updated = True&amp;#10;                                current_dB_right = 30.0&amp;#10;                                upper_lim_right = upper_limits[frequency_right]&amp;#10;                                reversals_right = 0&amp;#10;                                reading_num_right = 0&amp;#10;                                trial_num_right = 0&amp;#10;                                user_resp_right = []&amp;#10;                                readings_right = []&amp;#10;                                frequency_updated = False&amp;#10;                                next_freq_message_right = f&quot;Next frequency: {frequency_right} Hz&quot;&amp;#10;                                print(f&quot;Dummy trial triggered frequency change: {frequency_right} Hz (Index: {frequency_index_right})&quot;)&amp;#10;                            else:&amp;#10;                                trials_right.finished = True&amp;#10;                                print(&quot;All frequencies tested, ending Right Ear&quot;)&amp;#10;        elif mouse_right.isPressedIn(no_button_right):&amp;#10;            print(&quot;No button clicked during dummy trial&quot;)&amp;#10;            user_resp_right.append('n')&amp;#10;            print(f&quot;User response right: {user_resp_right}&quot;)&amp;#10;            current_dB_right += step&amp;#10;&amp;#10;# Track user responses and reversals&amp;#10;print(f&quot;User response right: {user_resp_right}&quot;)&amp;#10;if len(user_resp_right) &gt; 1:&amp;#10;    if user_resp_right[-1] != user_resp_right[-2]:&amp;#10;        reversals_right += 1&amp;#10;        print(f&quot;Reversals right: {reversals_right}&quot;)&amp;#10;        if reversals_right % 2 == 0:&amp;#10;            if user_resp_right[-1] == 'n':&amp;#10;                waiting_for_y_right = True&amp;#10;                print(&quot;Waiting for next 'y' to record the reading&quot;)&amp;#10;            elif user_resp_right[-1] == 'y':&amp;#10;                latest_reading_right = previous_dB_right&amp;#10;                readings_right.append(latest_reading_right)&amp;#10;                reading_num_right += 1&amp;#10;                print(f&quot;Recording reading (2nd reversal): {latest_reading_right}&quot;)&amp;#10;                thisExp.addData('Readings_right', latest_reading_right)&amp;#10;                waiting_for_y_right = False&amp;#10;        elif waiting_for_y_right and user_resp_right[-1] == 'y':&amp;#10;            latest_reading_right = previous_dB_right&amp;#10;            readings_right.append(latest_reading_right)&amp;#10;            reading_num_right += 1&amp;#10;            print(f&quot;Recording reading (waiting for y): {latest_reading_right}&quot;)&amp;#10;            thisExp.addData('Readings_right', latest_reading_right)&amp;#10;            waiting_for_y_right = False&amp;#10;&amp;#10;# Check for concordant readings&amp;#10;if not frequency_updated and len(readings_right) &gt;= 3:&amp;#10;    most_common_reading = max(set(readings_right), key=readings_right.count)&amp;#10;    if readings_right.count(most_common_reading) &gt;= 3 or len(readings_right) &gt; 10:&amp;#10;        if frequency_index_right &lt; len(frequencies) - 1:&amp;#10;            frequency_index_right += 1&amp;#10;            frequency_right = frequencies[frequency_index_right]&amp;#10;            current_dB_right = 30.0&amp;#10;            upper_lim_right = upper_limits[frequency_right]&amp;#10;            reversals_right = 0&amp;#10;            reading_num_right = 0&amp;#10;            trial_num_right = 0&amp;#10;            user_resp_right = []&amp;#10;            readings_right = []&amp;#10;            next_freq_message_right = f&quot;Next frequency: {frequency_right} Hz&quot;&amp;#10;            print(f&quot;Normal trials triggered frequency change: {frequency_right} Hz (Index: {frequency_index_right})&quot;)&amp;#10;        else:&amp;#10;            trials_right.finished = True&amp;#10;            print(&quot;All frequencies tested, ending Right Ear&quot;)&amp;#10;&amp;#10;# Add data to the experiment&amp;#10;thisExp.addData('Level_right', current_dB_right)&amp;#10;trial_num_right += 1&amp;#10;print(f&quot;Final filename: {current_filename_right}&quot;)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codetrials_right" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="next_freq_text_right" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="next_freq_text_right" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="yes_button_right" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Mouse/Yes.png" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="yes_button_right" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-8, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(5, 5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="cm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="no_button_right" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Mouse/No.png" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="no_button_right" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(8,0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(5,5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="cm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <SoundComponent name="sound_right" plugin="None">
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="hamming"/>
+        <Param val="sound_right" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="$current_filename_right" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="-1" valType="code" updates="None" name="speakerIndex"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="30.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="1" valType="num" updates="constant" name="volume"/>
+      </SoundComponent>
+      <MouseComponent name="mouse_right" plugin="None">
+        <Param val="(yes_button_right,no_button_right)" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_right" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="every frame" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="" valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="routine" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="EndScreen">
+      <RoutineSettingsComponent name="EndScreen" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="EndScreen" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textEnd" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textEnd" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thanks for participating in this experiment! Please notify the experimenter about the completion." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respEnd" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respEnd" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="EndCode">
+      <RoutineSettingsComponent name="EndCode" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="EndCode" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_end" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="# Log the latest readings at the end of the experiment&amp;#10;thisExp.addData('Latest_Readings_left', latest_readings_left)&amp;#10;thisExp.addData('Latest_Readings_right', latest_readings_right)" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="psychoJS.experiment.addData(&quot;Latest_Readings_left&quot;, latest_readings_left);&amp;#10;psychoJS.experiment.addData(&quot;Latest_Readings_right&quot;, latest_readings_right);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_end" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="WelcomeScreen"/>
+    <Routine name="blank500"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_left">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="500" valType="num"/>
+      <Param name="name" updates="None" val="trials_left" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial_left"/>
+    <Routine name="blank500"/>
+    <LoopTerminator name="trials_left"/>
+    <Routine name="blank500"/>
+    <Routine name="Int_Message"/>
+    <Routine name="blank500"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_right">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="500" valType="num"/>
+      <Param name="name" updates="None" val="trials_right" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial_right"/>
+    <Routine name="blank500"/>
+    <LoopTerminator name="trials_right"/>
+    <Routine name="blank500"/>
+    <Routine name="EndScreen"/>
+  </Flow>
+</PsychoPy2experiment>
